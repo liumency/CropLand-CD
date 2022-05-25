@@ -1,6 +1,6 @@
 ## Cropland-CD
 
-The pytorch implementation for **MSCANet** in paper "A CNN-transformer network with multi-scale context aggregation for fine-grained cropland change detection" on [IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing](https://www.grss-ieee.org/publications/journal-of-selected-topics-in-applied-earth-observations-and-remote-sensing/).  
+The pytorch implementation for **MSCANet** in paper "[A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection](https://ieeexplore.ieee.org/document/9780164)" on [IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing](https://www.grss-ieee.org/publications/journal-of-selected-topics-in-applied-earth-observations-and-remote-sensing/).  
 
 ## Requirements
 - Python 3.6
@@ -12,19 +12,19 @@ The pytorch implementation for **MSCANet** in paper "A CNN-transformer network w
 - Download the [HRSCD Dataset](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)
 
 
-```
+
 ## Citation
 
 Please cite our paper if you use this code in your work:
 
 
-@ARTICLE{liu2021super,
-  author={Liu, Mengxi and Shi, Qian and Marinoni, Andrea and He, Da and Liu, Xiaoping and Zhang, Liangpei},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Super-Resolution-Based Change Detection Network With Stacked Attention Module for Images With Different Resolutions}, 
-  year={2021},
+@ARTICLE{9780164,
+  author={Liu, Mengxi and Chai, Zhuoqun and Deng, Haojun and Liu, Rong},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection}, 
+  year={2022},
   volume={},
   number={},
-  pages={1-18},
-  doi={10.1109/TGRS.2021.3091758}}
-```
+  pages={1-1},
+  doi={10.1109/JSTARS.2022.3177235}}
+
