@@ -8,7 +8,7 @@ The pytorch implementation for **MSCANet** in paper "[A CNN-transformer Network 
 
 
 ## Datasets
-- Download the [CLCD Dataset](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/liumx23_mail2_sysu_edu_cn/Ejm7aufQREdIhYf5yxSZDIkBr68p2AUQf_7BAEq4vmV0pg?e=ZWI3oy)
+- Download the CLCD Dataset: [OneDrive](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/liumx23_mail2_sysu_edu_cn/Ejm7aufQREdIhYf5yxSZDIkBr68p2AUQf_7BAEq4vmV0pg?e=ZWI3oy)[Baidu](https://pan.baidu.com/s/1Un-bVxUm1N9IHiDOXLLHlg?pwd=miu2)
 - Download the [HRSCD Dataset](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)
 
 
