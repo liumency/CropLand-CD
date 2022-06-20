@@ -66,15 +66,15 @@ class Classifier(nn.Module):
         return x
 
 class CDNet(nn.Module):
-    def __init__(self, backbone='resnet18', output_stride=16, img_chan=3, chan_num = 32, n_class =2):
+    def __init__(self,  backbone='resnet18', output_stride=16, img_size = 512, img_chan=3, chan_num = 32, n_class =2):
         super(CDNet, self).__init__()
         BatchNorm = nn.BatchNorm2d
 
         self.backbone = build_backbone(backbone, output_stride, BatchNorm, img_chan)
 
-        self.CA_s16 = context_aggregator(in_chan=chan_num, size=32)
-        self.CA_s8 = context_aggregator(in_chan=chan_num, size=64)
-        self.CA_s4 = context_aggregator(in_chan=chan_num, size=128)
+        self.CA_s16 = context_aggregator(in_chan=chan_num, size=img_size//16)
+        self.CA_s8 = context_aggregator(in_chan=chan_num, size=img_size//8)
+        self.CA_s4 = context_aggregator(in_chan=chan_num, size=img_size//4)
 
         self.conv_s8 = nn.Conv2d(chan_num*2, chan_num, kernel_size=3, padding=1)
         self.conv_s4 = nn.Conv2d(chan_num*2, chan_num, kernel_size=3, padding=1)
