@@ -11,7 +11,7 @@ parser.add_argument('--num_workers', default=24, type=int, help='num of workers'
 parser.add_argument('--n_class', default=2, type=int, help='number of class')
 parser.add_argument('--gpu_id', default="0", type=str, help='which gpu to run.')
 parser.add_argument('--suffix', default=['.png','.jpg','.tif'], type=list, help='the suffix of the image files.')
-
+parser.add_argument('--img_size', default=512, type=int, help='imagesize')
 parser.add_argument('--lr', type=float, default=0.0001, help='initial learning rate for adam')
 
 
