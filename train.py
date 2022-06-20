@@ -35,7 +35,7 @@ if __name__ == '__main__':
     val_loader = DataLoader(dataset=val_set, num_workers=args.num_workers, batch_size=args.val_batchsize, shuffle=True)
 
     # define model
-    CDNet = CDNet().to(device, dtype=torch.float)
+    CDNet = CDNet(img_size = args.img_size).to(device, dtype=torch.float)
 
     if torch.cuda.device_count() > 1:
         print("Let's use", torch.cuda.device_count(), "GPUs!")
