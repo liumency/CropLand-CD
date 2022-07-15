@@ -8,8 +8,14 @@ The pytorch implementation for **MSCANet** in paper "[A CNN-transformer Network 
 
 
 ## Datasets
+### CropLand Change Dection (CLCD) Dataset
+The CLCD dataset consists of 600 pairs image of cropland change samples, with 360 pairs for training, 120 pairs for validation and 120 pairs for testing.
+The bi-temporal images in CLCD were collected by Gaofen-2 in Guangdong Province, China, in 2017 and 2019, respectively, with spatial resolution ranged from 0.5 to 2 m. Each group of samples is composed of two images of 512 × 512 and a corresponding binary label of cropland change.
+
 - Download the CLCD Dataset: [OneDrive](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/liumx23_mail2_sysu_edu_cn/Ejm7aufQREdIhYf5yxSZDIkBr68p2AUQf_7BAEq4vmV0pg?e=ZWI3oy) | [Baidu](https://pan.baidu.com/s/1Un-bVxUm1N9IHiDOXLLHlg?pwd=miu2)
 - Download the [HRSCD Dataset](https://ieee-dataport.org/open-access/hrscd-high-resolution-semantic-change-detection-dataset)
+
+
 
 
 
